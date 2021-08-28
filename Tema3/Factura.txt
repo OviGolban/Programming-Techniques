@@ -1,0 +1,4 @@
+--------------FACTURA--------------
+Clientul cu id-ul: 0 a efectuat o comanda
+Numarul comenzii: 9
+S-a cumparat produsul: PORTOCALE in cantitate de: 4
