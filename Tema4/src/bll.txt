@@ -1,0 +1,3 @@
+---FACTURA COMANDA---
+orderID 200 clientID 200 orderDate 2021-05-27T14:58:21.334679100 produse de baza [MenuItem Cilantro-Tomato Salsa  3.75 23 1 0 7 32, MenuItem Cauliflower-Leek Purée  3.125 23 2 0 149 13, MenuItem Barbecued Shrimp  3.75 23 4 0 205 71]
+TOTAL DE ACHITAT:116
