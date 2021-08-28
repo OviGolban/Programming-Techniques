@@ -1,0 +1,58 @@
+Clienti creati: ---------------------------------------
+Client: 1 cu timp de sosire 4 si timp de service 3
+Client: 2 cu timp de sosire 3 si timp de service 3
+Client: 3 cu timp de sosire 3 si timp de service 1
+Client: 4 cu timp de sosire 1 si timp de service 2
+Client: 5 cu timp de sosire 2 si timp de service 4
+Client: 6 cu timp de sosire 4 si timp de service 2
+Client: 7 cu timp de sosire 2 si timp de service 3
+---------------------------------------------------------
+
+------- Time1 -------
+Clienti in coada 0: [Client 4 1 2]
+Clienti in coada 1: []
+Client in curs de procesare - Coada 1: Client 4 1 1
+
+------- Time2 -------
+Clienti in coada 0: [Client 4 1 1, Client 5 2 4]
+Clienti in coada 1: [Client 7 2 3]
+Client in curs de procesare - Coada 1: Client 4 1 0
+Client in curs de procesare - Coada 2: Client 7 2 2
+
+------- Time3 -------
+Clienti in coada 0: [Client 4 1 0, Client 5 2 4]
+Clienti in coada 1: [Client 7 2 2, Client 3 3 1, Client 2 3 3]
+Client in curs de procesare - Coada 2: Client 7 2 1
+Client in curs de procesare - Coada 1: Client 4 1 0
+
+------- Time4 -------
+Clienti in coada 0: [Client 5 2 4, Client 6 4 2]
+Clienti in coada 1: [Client 7 2 1, Client 3 3 1, Client 2 3 3, Client 1 4 3]
+Client in curs de procesare - Coada 2: Client 7 2 0
+Client in curs de procesare - Coada 1: Client 5 2 3
+
+------- Time5 -------
+Clienti in coada 0: [Client 5 2 3, Client 6 4 2]
+Clienti in coada 1: [Client 7 2 0, Client 3 3 1, Client 2 3 3, Client 1 4 3]
+Client in curs de procesare - Coada 1: Client 5 2 2
+Client in curs de procesare - Coada 2: Client 7 2 0
+
+------- Time6 -------
+Clienti in coada 0: [Client 5 2 2, Client 6 4 2]
+Clienti in coada 1: [Client 3 3 1, Client 2 3 3, Client 1 4 3]
+Client in curs de procesare - Coada 1: Client 5 2 1
+Client in curs de procesare - Coada 2: Client 3 3 0
+
+------- Time7 -------
+Clienti in coada 0: [Client 5 2 1, Client 6 4 2]
+Clienti in coada 1: [Client 3 3 0, Client 2 3 3, Client 1 4 3]
+Client in curs de procesare - Coada 1: Client 5 2 0
+Client in curs de procesare - Coada 2: Client 3 3 0
+Clientul Client: 4 cu timp de sosire 1 timp necesar service 2 - timp total service coada 2 a fost servit la tick-ul 3 de coada Coada 1
+Clientul Client: 7 cu timp de sosire 2 timp necesar service 3 - timp total service coada 3 a fost servit la tick-ul 5 de coada Coada 2
+Clientul Client: 3 cu timp de sosire 3 timp necesar service 1 - timp total service coada 4 a fost servit la tick-ul 7 de coada Coada 2
+-------------------------- Date despre simulare -------------------------------
+Timpul mediu de asteptare al unui client este de 3
+Timpul mediu de service necesar 2
+Ora de varf a fost: 4
+Numarul de clienti la aceasta ora a fost: 6
